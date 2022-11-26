@@ -56,6 +56,8 @@ Testasin porttia 8888 `mitmproxy -p 8888`, jonka jälkeen avasin uuden terminaal
 
 Apuna oli youtube video [QAInsights](https://www.youtube.com/watch?v=igcsLKDfssw) käyttäjältä.
 
+**Löysin hyvä Cheat sheet sivun mitmproxylle [QuickRef.ME](https://quickref.me/mitmproxy)**
+
 ![image](https://user-images.githubusercontent.com/93308960/204105607-22d05c72-b8f9-46b4-acaa-1b15068ca194.png)
 
 
@@ -88,3 +90,13 @@ Mentiin takaisin webgoat sivulle jossa näkyi että tehtävä onnistui.
 
 ![image](https://user-images.githubusercontent.com/93308960/204101188-15319dde-af5e-4e20-9691-8411636666f1.png)
 
+
+## Lähteet
+
+https://terokarvinen.com/2019/mitmproxy-on-kali-and-xubuntu-attack-and-testing/?fromSearch=mitmproxy
+
+https://quickref.me/mitmproxy
+
+https://community.spiceworks.com/topic/2031610-webcache-tcp-port-8080
+
+https://github.com/mitmproxy/mitmproxy/issues/219
