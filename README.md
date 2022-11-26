@@ -6,6 +6,17 @@ Tunkeutumistestaus kurssin kotiläksy H5 Kautta kiven ja kannon. Alkuperäisen t
 
 ## x) Lue ja tiivistä valitsemasi Bellingcatin OSINT-opas.
 
+[Dark Web OSINT With Python and OnionScan: Part One](https://www.bellingcat.com/resources/2016/07/28/dark-web-osint-with-python-and-onionscan-part-one/)
+
+ * OnionScan
+   * skannaa piilotettuja palveluita pimeästä verkosta
+   * katsoo potenttiaaleja tieto vuotoja
+ * Miten rakentaa :
+   * Asenna palvelin / ubuntu
+   * palvelimeen asennetaan TOR
+   * asennetaan OnionScan
+   * kirjoitetaan phytonia joka hoitaa skannamisen ja muita data käsittelyä tuloksista
+   * kirjoitetaa lisää pythonia joka tekee jotain hienoa 
 
 ## y) SuomiOsint
 
