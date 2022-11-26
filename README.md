@@ -44,13 +44,25 @@ Skannaus onnistui ja saatiin paljon tietoa sivusta, kuten sen haavoittuvuudet ja
 ## c) Mitmproxy / d) Totally Legit Sertificate
 
 
+Sain asennettua mitmproxyn jo tunnilla, komennolla `sudo apt install mitmproxy` se onnistui.
+
+
 ![image](https://user-images.githubusercontent.com/93308960/204095537-f75bb684-f12f-4331-996a-a773fe972e71.png)
+
+
+
+![image](https://user-images.githubusercontent.com/93308960/204098610-97d6c039-3d99-4765-92c0-00bfb3911911.png)
 
 
 ![image](https://user-images.githubusercontent.com/93308960/204097871-0c50eaa4-de80-4867-8429-11497c500f70.png)
 
+Verkon sieppaaminen ei onnistunut, ensin tuli error viesti siitä että osoite on jo käytössä. Löysin [Githubista](https://github.com/mitmproxy/mitmproxy/issues/219) samalla ongelmalla, joten ajattelin että ongelma on portissa. Löysin parilta sivustola portti vaihtoehtoja joita voisi testata [spiceworks](https://community.spiceworks.com/topic/2031610-webcache-tcp-port-8080) portti 8008
 
-![image](https://user-images.githubusercontent.com/93308960/204098610-97d6c039-3d99-4765-92c0-00bfb3911911.png)
+![image](https://user-images.githubusercontent.com/93308960/204104830-b0017130-06aa-4b70-99a2-be9a98f8c3ee.png)
+
+![image](https://user-images.githubusercontent.com/93308960/204105607-22d05c72-b8f9-46b4-acaa-1b15068ca194.png)
+
+![image](https://user-images.githubusercontent.com/93308960/204104790-6f62c667-824a-4354-9f54-616b8f189018.png)
 
 
 
@@ -59,13 +71,27 @@ Skannaus onnistui ja saatiin paljon tietoa sivusta, kuten sen haavoittuvuudet ja
 
 Valitsin tehtävän HTTP basic -> HTTP proxy.
 
+ Zap proxyn kautta avasin uuden firefox selaimen jolla pääsin webgoat sivulle. 
 
+![image](https://user-images.githubusercontent.com/93308960/204103225-7f452ce3-2c75-4b0a-a956-f6bac3cc7e6c.png)
+
+Tämän jälkeen painoin vihreää painiketta jotta saadaan kaapattua uudet pyynnöt. Sitten mentiin takaisin webogat sivulle jossa painettiin submit.  
 
 ![image](https://user-images.githubusercontent.com/93308960/204101258-46a93ccd-4855-4a95-af81-412d61ad120b.png)
 
+Muokattiin pyyntöä tehtävän mukaan:
+
+Method vaihdettiin POST -> GET
+
+lisättiin x-request-intercepted:true
+
+lopuksi viahdettiin ChangeMe parametri doesn't+matter+really -> Request are tempered easly
+
+Muutoksien jälkeen tämä lähetettiin uudelleen.
 
 ![image](https://user-images.githubusercontent.com/93308960/204101160-4f571f4d-c3fc-49e8-bbdb-1eaf63d4e027.png)
 
+Mentiin takaisin webgoat sivulle jossa näkyi että tehtävä onnistui.
 
 ![image](https://user-images.githubusercontent.com/93308960/204101188-15319dde-af5e-4e20-9691-8411636666f1.png)
 
