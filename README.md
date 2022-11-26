@@ -56,13 +56,14 @@ Sain asennettua mitmproxyn jo tunnilla, komennolla `sudo apt install mitmproxy` 
 
 ![image](https://user-images.githubusercontent.com/93308960/204097871-0c50eaa4-de80-4867-8429-11497c500f70.png)
 
-Verkon sieppaaminen ei onnistunut, ensin tuli error viesti siitä että osoite on jo käytössä. Löysin [Githubista](https://github.com/mitmproxy/mitmproxy/issues/219) samalla ongelmalla, joten ajattelin että ongelma on portissa. Löysin parilta sivustola portti vaihtoehtoja joita voisi testata [spiceworks](https://community.spiceworks.com/topic/2031610-webcache-tcp-port-8080) portti 8008
+Verkon sieppaaminen ei onnistunut, ensin tuli error viesti siitä että osoite on jo käytössä. Löysin [Githubista](https://github.com/mitmproxy/mitmproxy/issues/219) samalla ongelmalla, joten ajattelin että ongelma on portissa. Löysin parilta sivustola portti vaihtoehtoja joita voisi testata [spiceworks](https://community.spiceworks.com/topic/2031610-webcache-tcp-port-8080) portti 8008 ja [opetajamme sivuta](https://terokarvinen.com/2019/mitmproxy-on-kali-and-xubuntu-attack-and-testing/?fromSearch=mitmproxy) portti 8888.
 
-![image](https://user-images.githubusercontent.com/93308960/204104830-b0017130-06aa-4b70-99a2-be9a98f8c3ee.png)
+Testasin porttia 8888 `mitmproxy -p 8888`, jonka jälkeen avasin uuden terminaali sviun johon kirjoitin `curl --proxy http://localhost:8888 http://192.168.56.107/mutillidae`. Sain tietoa mitmproxyyn.
+
+Apuna oli youtube video [QAInsights](https://www.youtube.com/watch?v=igcsLKDfssw) käyttäjältä.
 
 ![image](https://user-images.githubusercontent.com/93308960/204105607-22d05c72-b8f9-46b4-acaa-1b15068ca194.png)
 
-![image](https://user-images.githubusercontent.com/93308960/204104790-6f62c667-824a-4354-9f54-616b8f189018.png)
 
 
 
