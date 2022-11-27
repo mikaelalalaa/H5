@@ -20,7 +20,7 @@ Tunkeutumistestaus kurssin kotiläksy H5 Kautta kiven ja kannon. Alkuperäisen t
 
 ## y) SuomiOsint
 
-
+en löytänyt aihetta joka sopisi erityisesti suomeen
 
 ## a) Zap / b) ZAP certificate
 
