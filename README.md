@@ -51,6 +51,14 @@ Skannaus onnistui ja saatiin paljon tietoa sivusta, kuten sen haavoittuvuudet ja
 ![image](https://user-images.githubusercontent.com/93308960/204093507-ac7e091f-001a-471a-abf8-5220eb233ea4.png)
 
 
+Jotta päästään katsomaan HTTPS pyyntöjä pitää asentaa ZAP sertfikaatti selaimeen. 
+
+ZAP sertifikaatti löytyy Tools -> Options -> Server certificate, tiedosto tallennetaan.
+
+![image](https://user-images.githubusercontent.com/93308960/205607743-c206d102-a609-47d3-b1d6-8c984f18cbe7.png)
+
+
+![image](https://user-images.githubusercontent.com/93308960/205607243-acc1dd83-4d0c-4a2d-9a26-8f9c2a20d1e7.png)
 
 ![image](https://user-images.githubusercontent.com/93308960/205606271-c1ddadb9-9ef0-44c2-97cc-847922d9c1c3.png)
 
@@ -73,6 +81,17 @@ Apuna oli youtube video [QAInsights](https://www.youtube.com/watch?v=igcsLKDfssw
 **Löysin hyvä Cheat sheet sivun mitmproxylle [QuickRef.ME](https://quickref.me/mitmproxy)**
 
 ![image](https://user-images.githubusercontent.com/93308960/204105607-22d05c72-b8f9-46b4-acaa-1b15068ca194.png)
+
+
+![image](https://user-images.githubusercontent.com/93308960/205607639-b93056ee-6bb2-4fc5-af3e-f356956c16e0.png)
+
+
+
+![image](https://user-images.githubusercontent.com/93308960/205607142-19f1414d-9492-4697-8905-c7fd45828ded.png)
+
+
+
+
 
 ![image](https://user-images.githubusercontent.com/93308960/205606362-d0aa3eb6-e9a8-49d4-9b2f-e2db38bffee4.png)
 
