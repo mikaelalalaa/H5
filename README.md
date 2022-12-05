@@ -52,6 +52,9 @@ Skannaus onnistui ja saatiin paljon tietoa sivusta, kuten sen haavoittuvuudet ja
 
 
 
+![image](https://user-images.githubusercontent.com/93308960/205606271-c1ddadb9-9ef0-44c2-97cc-847922d9c1c3.png)
+
+
 ## c) Mitmproxy / d) Totally Legit Sertificate
 
 
@@ -71,6 +74,7 @@ Apuna oli youtube video [QAInsights](https://www.youtube.com/watch?v=igcsLKDfssw
 
 ![image](https://user-images.githubusercontent.com/93308960/204105607-22d05c72-b8f9-46b4-acaa-1b15068ca194.png)
 
+![image](https://user-images.githubusercontent.com/93308960/205606362-d0aa3eb6-e9a8-49d4-9b2f-e2db38bffee4.png)
 
 
 ## e) Ratkaise valitsemasi WebGoat-tehtävä
