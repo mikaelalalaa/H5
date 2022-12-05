@@ -143,3 +143,5 @@ https://quickref.me/mitmproxy
 https://community.spiceworks.com/topic/2031610-webcache-tcp-port-8080
 
 https://github.com/mitmproxy/mitmproxy/issues/219
+
+https://2qwesgdhjuiytyrjhtgdbf.readthedocs.io/en/latest/certinstall.html
